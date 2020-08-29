@@ -1,0 +1,96 @@
+# build, distribute, and bins (+ python proto bindings)
+/runs/
+build
+build_host_protoc
+build_android
+build_ios
+/build_*
+.build_debug/*
+.build_release/*
+distribute/*
+*.testbin
+*.bin
+cmake_build
+.cmake_build
+gen
+.setuptools-cmake-build
+.pytest_cache
+aten/build/*
+
+spectre_example/runs
+
+# Env
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# data
+*.csv
+/data/
+*.sql3
+*.h5
+
+# logs
+*.log
+*.con
+/logs/
+*/log/
+
+# IDEA or PyCharm files
+/.idea/
+*.iml
+
+# IPython notebook checkpoints
+/.ipynb_checkpoints/
+**/*.ipynb_checkpoints/
+
+# python
+*/*.pyc
+*/*.so*
+*/**/__pycache__
+*/**/*.dylib*
+*/**/*.pyc
+*/**/*.pyd
+*/**/*.so*
+*/**/**/*.pyc
+*/**/**/**/*.pyc
+*/**/**/**/**/*.pyc
+
+# Backups
+*.bak
+*~
+.#*
+*#
+*.swp
+*.swo
+*.png
+
+# OS generated files #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# MetaTrader
+*.ex4
+*.ex5
+
+/tutorial-contents/mnist/
+/mnist/
+
+/Image_Result/
+/Image_Lib/
