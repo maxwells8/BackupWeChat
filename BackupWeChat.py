@@ -21,13 +21,16 @@ def select_wechat():
             win.activate()
             win.maximize()
             find_wechat = True
+            # 定位到好友菜单
             win.click(50, 216)
+            # 定位到好友列表
             win.click(230, 200)
+            # 滚动到最顶
             ahk.key_press('Home')
             break
 
     if not find_wechat:
-        win32api.MessageBox(0, "没有找到微信，请打开并登录！", "没有找到微信", win32con.MB_ICONWARNING)
+        win32api.MessageBox(0, "没有找到微信客户端，请打开并登录！", "没有找到微信客户端", win32con.MB_ICONWARNING)
         exit()
 
 
