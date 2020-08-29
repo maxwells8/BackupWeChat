@@ -4,6 +4,7 @@ from PIL import ImageGrab
 import win32api
 import win32con
 
+# 微信好友和群的总数
 friends_total = 500
 
 find_wechat = False
